@@ -400,18 +400,17 @@
 
         <div class="about-box">
 
-            <!-- PHOTO -->
-            <div>
+            <?php
+$imagePath = getenv('VERCEL') === '1'
+    ? '/images/Profil.jpeg'
+    : '../public/images/Profil.jpeg';
+?>
 
-                <img
-                    src="../public/images/Profil.jpeg"
-                    alt="Photo de Imane"
-                    class="profile"
-                >
-
-            </div>
-
-
+<img
+    src="<?= $imagePath ?>"
+    alt="Photo de Imane"
+    class="profile"
+>
             <div class="about-text">
 
                 <p>
