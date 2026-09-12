@@ -401,7 +401,7 @@
         <div class="about-box">
 
 <img
-    src="/public/images/Profil.jpeg"
+    src="/../public/images/Profil.jpeg"
     alt="Photo de Imane"
     class="profile"
 >
