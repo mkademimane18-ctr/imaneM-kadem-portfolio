@@ -315,7 +315,7 @@
 
 <body>
 
-<h1>TEST IMANE</h1>
+
 <!-- ================= NAVBAR ================= -->
 
 <nav>
@@ -400,14 +400,8 @@
 
         <div class="about-box">
 
-            <?php
-$imagePath = getenv('VERCEL') === '1'
-    ? '/images/Profil.jpeg'
-    : '../public/images/Profil.jpeg';
-?>
-
 <img
-    src="<?= $imagePath ?>"
+    src="/public/images/Profil.jpeg"
     alt="Photo de Imane"
     class="profile"
 >
