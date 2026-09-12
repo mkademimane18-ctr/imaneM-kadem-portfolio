@@ -505,7 +505,7 @@
             <div class="project">
 
                 <img
-                    src="/images/fullstack-shop.png"
+                    src="../public/images/tp.jpg"
                     alt="Projet FULL STACK SHOP"
                     class="project-image"
                 >
@@ -538,7 +538,7 @@
             <div class="project">
 
                 <img
-                    src="/images/chriwbi3.png"
+                    src="../public/images/chriwbie.jpeg"
                     alt="Projet ChriWbi3"
                     class="project-image"
                 >
@@ -555,7 +555,7 @@
                     </p>
 
                     <div class="technologies">
-                        HTML • CSS • JavaScript
+                        HTML • CSS • php • MySQL • JavaScript
                     </div>
 
                     <a href="#" class="btn">
