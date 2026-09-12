@@ -408,7 +408,7 @@
             <div class="about-text">
 
                 <p>
-                    Je suis Imane Mkadem, étudiante dans
+                    Je suis Imane Mkadem, stagiaire dans
                     le domaine du développement digital.
                 </p>
 
@@ -513,19 +513,18 @@
                 <div class="project-content">
 
                     <h3>
-                        FULL STACK SHOP
+                        les TPS
                     </h3>
 
                     <p>
-                        Application web de gestion et de vente
-                        de matériel informatique.
+                        
                     </p>
 
                     <div class="technologies">
-                        PHP • MySQL • HTML • CSS • JavaScript
+                        Diagramme de classe • Diagramme de séquence • Diagramme de cas d'utilisation
                     </div>
 
-                    <a href="#" class="btn">
+                    <a href="TPS.php" class="btn">
                         Voir le projet
                     </a>
 
