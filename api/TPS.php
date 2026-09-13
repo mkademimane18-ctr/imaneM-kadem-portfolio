@@ -241,6 +241,57 @@
                 Voir le TP
             </a>
 
+
+        </div>
+
+ <!-- TP 4 -->
+
+        <div class="tp-card">
+
+            <div class="tp-info">
+
+                <h3>TP 4 — Exercice StarUML</h3>
+
+                <p>
+                    Travail UML réalisé avec StarUML.
+                </p>
+
+            </div>
+
+            <a
+                href="../public/docs/USEcase.mdj"
+                
+                class="tp-link"
+                download
+            >
+                Voir le TP
+            </a>
+            
+
+        </div>
+ <!-- TP 5 -->
+
+        <div class="tp-card">
+
+            <div class="tp-info">
+
+                <h3>TP 5 — Exercice StarUML</h3>
+
+                <p>
+                    Travail UML réalisé avec StarUML.
+                </p>
+
+            </div>
+
+            <a
+                href="../public/docs/USEcase2.mdj"
+                class="tp-link"
+                download
+            >
+                Voir le TP
+            </a>
+            
+
         </div>
 
 
