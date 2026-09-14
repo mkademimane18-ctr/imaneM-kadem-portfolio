@@ -2,6 +2,7 @@
 <html lang="fr">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -23,7 +24,7 @@
             line-height: 1.6;
         }
 
-        /* NAVBAR */
+        /* ================= NAVBAR ================= */
 
         nav {
             position: fixed;
@@ -61,7 +62,7 @@
             color: #38bdf8;
         }
 
-        /* SECTIONS */
+        /* ================= SECTIONS ================= */
 
         section {
             min-height: 100vh;
@@ -73,7 +74,7 @@
             margin: auto;
         }
 
-        /* HOME */
+        /* ================= HOME ================= */
 
         #home {
             display: flex;
@@ -128,7 +129,7 @@
             background: #7dd3fc;
         }
 
-        /* TITLES */
+        /* ================= TITLES ================= */
 
         .section-title {
             text-align: center;
@@ -140,7 +141,7 @@
             color: #38bdf8;
         }
 
-        /* ABOUT */
+        /* ================= ABOUT ================= */
 
         #about {
             background: #111827;
@@ -168,7 +169,7 @@
             font-size: 18px;
         }
 
-        /* SKILLS */
+        /* ================= SKILLS ================= */
 
         .skills {
             display: grid;
@@ -197,7 +198,7 @@
             color: #cbd5e1;
         }
 
-        /* PROJECTS */
+        /* ================= PROJECTS ================= */
 
         #projects {
             background: #0f172a;
@@ -248,7 +249,7 @@
             font-size: 14px;
         }
 
-        /* CONTACT */
+        /* ================= CONTACT ================= */
 
         #contact {
             background: #111827;
@@ -267,7 +268,7 @@
             font-weight: bold;
         }
 
-        /* FOOTER */
+        /* ================= FOOTER ================= */
 
         footer {
             background: #020617;
@@ -276,7 +277,7 @@
             color: #94a3b8;
         }
 
-        /* RESPONSIVE */
+        /* ================= RESPONSIVE ================= */
 
         @media (max-width: 768px) {
 
@@ -400,15 +401,16 @@
 
         <div class="about-box">
 
-<img
-    src="../public/images/Profil.jpeg"
-    alt="Photo de Imane"
-    class="profile"
->
+            <img
+                src="/images/Profil.jpeg"
+                alt="Photo de Imane"
+                class="profile"
+            >
+
             <div class="about-text">
 
                 <p>
-                    Je suis Imane Mkadem, stagiaire dans
+                    Je suis Imane M'kadem, stagiaire dans
                     le domaine du développement digital.
                 </p>
 
@@ -496,36 +498,37 @@
             Mes <span>projets</span>
         </h2>
 
-
         <div class="projects">
 
 
-            <!-- PROJECT 1 -->
+            <!-- ================= TPs ================= -->
 
             <div class="project">
 
                 <img
                     src="../public/images/tp.jpg"
-                    alt="Projet FULL STACK SHOP"
+                    alt="Travaux pratiques"
                     class="project-image"
                 >
 
                 <div class="project-content">
 
                     <h3>
-                        les TPS
+                        Travaux Pratiques
                     </h3>
 
                     <p>
-                        
+                        Découvrez mes travaux pratiques réalisés
+                        durant ma formation en Développement Digital
+                        option Web Full Stack.
                     </p>
 
                     <div class="technologies">
-                        Diagramme de classe • Diagramme de séquence • Diagramme de cas d'utilisation
+                        M201 • M202 • M203 • M204 • M205 • M206
                     </div>
 
-                    <a href="TPS.php" class="btn">
-                        Voir le projet
+                    <a href="modules.php" class="btn">
+                        Voir les modules
                     </a>
 
                 </div>
@@ -533,7 +536,7 @@
             </div>
 
 
-            <!-- PROJECT 2 -->
+            <!-- ================= CHRIWBI3 ================= -->
 
             <div class="project">
 
@@ -555,10 +558,10 @@
                     </p>
 
                     <div class="technologies">
-                        HTML • CSS • php • MySQL • JavaScript
+                        HTML • CSS • PHP • MySQL • JavaScript
                     </div>
 
-                    <a href="#" class="btn">
+                    <a href="modules.php" class="btn">
                         Voir le projet
                     </a>
 
@@ -567,12 +570,12 @@
             </div>
 
 
-            <!-- PROJECT 3 -->
+            <!-- ================= PROJECT 3 ================= -->
 
             <div class="project">
 
                 <img
-                    src="/images/project3.png"
+                    src="../public/images/project3.png"
                     alt="Projet à venir"
                     class="project-image"
                 >
@@ -592,7 +595,7 @@
                         Web Development
                     </div>
 
-                    <a href="#" class="btn">
+                    <a href="modules.php" class="btn">
                         Voir le projet
                     </a>
 
@@ -638,11 +641,6 @@
     © 2026 Imane Mkadem — Portfolio
 
 </footer>
-
-
-</body>
-
-</html>
 
 
 </body>
