@@ -402,7 +402,7 @@
         <div class="about-box">
 
             <img
-                src="/images/Profil.jpeg"
+                src="../public/images/Profil.jpeg"
                 alt="Photo de Imane"
                 class="profile"
             >
