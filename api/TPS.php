@@ -167,6 +167,29 @@
 
 
     <div class="tp-list">
+        <!-- TP Atelier -->
+
+        <div class="tp-card">
+
+            <div class="tp-info">
+
+                <h3>TP 1 — les 5 Diagramme Atelier</h3>
+
+                <p>
+                   UML
+                </p>
+
+            </div>
+
+            <a
+                href="../public/docs/AtelierDiag.pdf"
+                class="tp-link"
+                download
+            >
+                Voir le TP
+            </a>
+
+        </div>
 
 
         <!-- TP 1 -->
