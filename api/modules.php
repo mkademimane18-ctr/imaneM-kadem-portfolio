@@ -231,7 +231,7 @@
                 dans la gestion des projets.
             </p>
 
-            <a href="#" class="btn">
+            <a href="TP202.php" class="btn">
                 Voir les TPs
             </a>
 
