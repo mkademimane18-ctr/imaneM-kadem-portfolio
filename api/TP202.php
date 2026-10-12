@@ -329,7 +329,7 @@
                     📐
                 </div>
 
-                <h3>Les diagrammes GANTT et PERT</h3>
+                <h3>Les Ateliers</h3>
 
                 <p>
                     
@@ -423,7 +423,28 @@
 
             </div>
 
+<div class="tp-card">
 
+                <div class="tp-info">
+
+                    <h3>Atelier2</h3>
+
+                    <p>
+                       
+                    </p>
+
+                </div>
+
+                <a
+                    href="../public/images/Atelier2.pdf"
+                    class="tp-link"
+                    download
+                >
+                    Voir le Atelier
+                </a>
+                
+
+            </div>
 
            
     <!-- ================================================= -->
@@ -465,10 +486,10 @@
 
                 <div class="tp-info">
 
-                    <h3>Atelier 1 - Figma</h3>
+                    <h3></h3>
 
                     <p>
-                        Travail Figma réalisé avec Figma.
+                        
                     </p>
 
                 </div>
@@ -478,7 +499,7 @@
                     class="tp-link"
                     download
                 >
-                    Voir le TP
+                    
                 </a>
 
             </div>
@@ -487,10 +508,10 @@
 
                 <div class="tp-info">
 
-                    <h3>Atelier 2 - Figma</h3>
+                    <h3></h3>
 
                     <p>
-                        Travail Figma réalisé avec Figma.
+                        
                     </p>
 
                 </div>
@@ -500,7 +521,7 @@
                     class="tp-link"
                     download
                 >
-                    Voir le TP
+                   
                 </a>
 
             </div>
