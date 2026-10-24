@@ -436,7 +436,7 @@
                 </div>
 
                 <a
-                    href="../public/images/Atelier2.pdf"
+                    href="../public/docs/Atelier2.pdf"
                     class="tp-link"
                     download
                 >
@@ -451,81 +451,6 @@
     <!--                    FIGMA                          -->
     <!-- ================================================= -->
 
-    <div id="figma-section" class="content-section">
-
-
-        <div class="section-header">
-
-            <h2>🎨 Mes travaux Figma</h2>
-
-            <button
-                class="back-category"
-                onclick="showSection('home')"
-            >
-                ← Retour
-            </button>
-
-        </div>
-
-
-        <div class="figma-message">
-
-            <div class="icon">
-                🎨
-            </div>
-
-            <h3>Mes travaux Figma</h3>
-
-            <p>
-                Cette partie sera bientôt complétée.
-            </p>
-
-        </div>
-
-         <div class="tp-card">
-
-                <div class="tp-info">
-
-                    <h3></h3>
-
-                    <p>
-                        
-                    </p>
-
-                </div>
-
-                <a
-                    href="../public/docs/Atelier1.pdf"
-                    class="tp-link"
-                    download
-                >
-                    
-                </a>
-
-            </div>
-
-            <div class="tp-card">
-
-                <div class="tp-info">
-
-                    <h3></h3>
-
-                    <p>
-                        
-                    </p>
-
-                </div>
-
-                <a
-                    href="../public/images/Frame 4.jpg"
-                    class="tp-link"
-                    download
-                >
-                   
-                </a>
-
-            </div>
-    </div>
 
 
 </div>
