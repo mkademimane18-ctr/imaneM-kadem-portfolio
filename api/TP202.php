@@ -467,7 +467,29 @@
                 </a>
                 
 
-            </div>           
+            </div>       
+            <div class="tp-card">
+
+                <div class="tp-info">
+
+                    <h3>Atelier7</h3>
+
+                    <p>
+                       
+                    </p>
+
+                </div>
+
+                <a
+                    href="https://atelier-sonarqube-2cc49d.gitlab.io"
+                    class="tp-link"
+                    download
+                >
+                    Voir le Atelier
+                </a>
+                
+
+            </div>               
     <!-- ================================================= -->
     <!--                    FIGMA                          -->
     <!-- ================================================= -->
