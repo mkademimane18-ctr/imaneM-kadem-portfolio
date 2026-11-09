@@ -561,7 +561,7 @@
                         HTML • CSS • PHP • MySQL • JavaScript
                     </div>
 
-                    <a href="modules.php" class="btn">
+                    <a href="https://chriwbie-en-clic.vercel.app/" class="btn">
                         Voir le projet
                     </a>
 
