@@ -1,0 +1,9 @@
+FROM dunglas/frankenphp:php8.4
+
+WORKDIR /app
+
+COPY . /app
+
+RUN cp -r /app/public /app/api/public
+
+CMD ["frankenphp", "php-server", "--root", "/app/api", "--listen", "0.0.0.0:80"]
