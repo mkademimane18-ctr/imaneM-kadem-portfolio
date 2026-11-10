@@ -516,48 +516,27 @@
 
 <script>
 
-    function showSection(section) {
+function showSection(section) {
+    const home = document.getElementById("home-section");
+    const uml = document.getElementById("uml-section");
+    const figma = document.getElementById("figma-section");
 
-        // الصفحة الرئيسية
-        document.getElementById("home-section").style.display = "none";
+    if (!home || !uml) return;
 
-        // UML
-        document.getElementById("uml-section").classList.remove("active");
-
-        // Figma
-        document.getElementById("figma-section").classList.remove("active");
-
-
-        // إذا اختار UML
-        if (section === "uml") {
-
-            document
-                .getElementById("uml-section")
-                .classList.add("active");
-
-        }
-
-
-        // إذا اختار Figma
-        else if (section === "figma") {
-
-            document
-                .getElementById("figma-section")
-                .classList.add("active");
-
-        }
-
-
-        // إذا رجع للصفحة الرئيسية
-        else if (section === "home") {
-
-            document
-                .getElementById("home-section")
-                .style.display = "block";
-
-        }
-
+    if (section === "figma" && !figma) {
+        alert("La section Figma n'est pas encore disponible.");
+        return;
     }
+
+    home.style.display = section === "home" ? "block" : "none";
+
+    uml.classList.toggle("active", section === "uml");
+
+    if (figma) {
+        figma.classList.toggle("active", section === "figma");
+    }
+}
+
 
 </script>
 
