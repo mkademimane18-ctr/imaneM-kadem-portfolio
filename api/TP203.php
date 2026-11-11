@@ -269,7 +269,7 @@
                     <h3>Les Ateliers</h3>
 
                     <p>
-                        Mes travaux pratiques : GANTT, PERT et gestion de projet.
+                        Mes travaux pratiques : Base de données relationnelle.
                     </p>
 
                 </div>
