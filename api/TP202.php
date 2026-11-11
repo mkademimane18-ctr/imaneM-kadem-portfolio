@@ -334,6 +334,25 @@
 
                 </div>
 
+
+                 <div class="tp-card">
+
+                    <div class="tp-info">
+                        <h3>Atelier 3</h3>
+                        <p>Travail de Git.</p>
+                    </div>
+
+                    <a href="../public/images/Ex13.pdf"
+                       class="tp-link" download>
+                        Voir Partie Pratique
+                    </a>
+                    <a href="../public/docs/.pdf"
+                       class="tp-link" download>
+                        Voir Partie Théorique
+                    </a>
+
+                </div>
+
                 <!-- TP ATELIER 5 -->
 
                 <div class="tp-card">
