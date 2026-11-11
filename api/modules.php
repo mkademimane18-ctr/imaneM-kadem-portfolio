@@ -255,7 +255,7 @@
                 des bases de données.
             </p>
 
-            <a href="#" class="btn">
+            <a href="TP203.php" class="btn">
                 Voir les TPs
             </a>
 

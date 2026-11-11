@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -67,12 +68,11 @@
             color: #64748b;
         }
 
-
-        /* ================= CATEGORIES ================= */
+        /* ================= CATEGORY ================= */
 
         .categories {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: 1fr;
             gap: 25px;
         }
 
@@ -81,11 +81,8 @@
             padding: 35px 30px;
             border-radius: 18px;
             box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-
             text-align: center;
-
             cursor: pointer;
-
             transition: 0.3s;
         }
 
@@ -109,7 +106,6 @@
             line-height: 1.6;
         }
 
-
         /* ================= CONTENT ================= */
 
         .content-section {
@@ -124,7 +120,6 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-
             margin-bottom: 25px;
         }
 
@@ -136,10 +131,8 @@
             border: none;
             background: #e2e8f0;
             color: #1e293b;
-
             padding: 10px 16px;
             border-radius: 8px;
-
             cursor: pointer;
             font-weight: 600;
         }
@@ -147,7 +140,6 @@
         .back-category:hover {
             background: #cbd5e1;
         }
-
 
         /* ================= TP CARDS ================= */
 
@@ -159,17 +151,12 @@
         .tp-card {
             background: white;
             padding: 25px;
-
             border-radius: 15px;
-
             box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-
             display: flex;
             align-items: center;
             justify-content: space-between;
-
             gap: 20px;
-
             transition: 0.3s;
         }
 
@@ -192,52 +179,18 @@
 
         .tp-link {
             background: #4f46e5;
-
             color: white;
-
             text-decoration: none;
-
             padding: 11px 20px;
-
             border-radius: 8px;
-
             font-weight: 600;
-
             white-space: nowrap;
+            text-align: center;
         }
 
         .tp-link:hover {
             background: #3730a3;
         }
-
-
-        /* ================= FIGMA ================= */
-
-        .figma-message {
-            background: white;
-
-            padding: 50px;
-
-            border-radius: 15px;
-
-            text-align: center;
-
-            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-        }
-
-        .figma-message .icon {
-            font-size: 60px;
-            margin-bottom: 15px;
-        }
-
-        .figma-message h3 {
-            margin-bottom: 10px;
-        }
-
-        .figma-message p {
-            color: #64748b;
-        }
-
 
         /* ================= FOOTER ================= */
 
@@ -247,14 +200,9 @@
             color: #64748b;
         }
 
-
         /* ================= RESPONSIVE ================= */
 
         @media (max-width: 650px) {
-
-            .categories {
-                grid-template-columns: 1fr;
-            }
 
             .tp-card {
                 flex-direction: column;
@@ -263,7 +211,6 @@
 
             .tp-link {
                 width: 100%;
-                text-align: center;
             }
 
             .section-header {
@@ -276,270 +223,187 @@
     </style>
 </head>
 
-
 <body>
 
+    <!-- ================= HEADER ================= -->
 
-<!-- ================= HEADER ================= -->
+    <header>
+        <h1>Imane Mkadem</h1>
+        <p>Mes Travaux Pratiques</p>
+    </header>
 
-<header>
+    <div class="container">
 
-    <h1>Imane Mkadem</h1>
+        <!-- ================= RETOUR PORTFOLIO ================= -->
 
-    <p>Mes Travaux Pratiques</p>
+        <a href="index.php" class="back">
+            ← Retour au portfolio
+        </a>
 
-</header>
+        <!-- ================= PAGE PRINCIPALE ================= -->
 
+        <div id="home-section">
 
-<div class="container">
+            <div class="title">
 
+                <h2>Mes TPs</h2>
 
-    <!-- ================= RETOUR PORTFOLIO ================= -->
+                <p>
+                    Découvrez mes travaux pratiques.
+                </p>
 
-    <a href="index.php" class="back">
-        ← Retour au portfolio
-    </a>
+            </div>
 
+            <div class="categories">
 
-    <!-- ================================================= -->
-    <!--                 PAGE PRINCIPALE                   -->
-    <!-- ================================================= -->
+                <!-- ================= LES ATELIERS ================= -->
 
-    <div id="home-section">
+                <div class="category-card" onclick="showSection('uml')">
 
-        <div class="title">
+                    <div class="category-icon">📐</div>
 
-            <h2>Mes TPs</h2>
+                    <h3>Les Ateliers</h3>
 
-            <p>
-                Choisissez une catégorie pour découvrir mes travaux.
-            </p>
+                    <p>
+                        Mes travaux pratiques : GANTT, PERT et gestion de projet.
+                    </p>
+
+                </div>
+
+            </div>
 
         </div>
 
+        <!-- ================= LES ATELIERS ================= -->
 
-        <div class="categories">
+        <div id="uml-section" class="content-section">
 
+            <div class="section-header">
 
-            <!-- ================= UML ================= -->
+                <h2>📐 Mes Ateliers</h2>
 
-            <div class="category-card" onclick="showSection('uml')">
-
-                <div class="category-icon">
-                    📐
-                </div>
-
-                <h3>Les Ateliers</h3>
-
-                <p>
-                    
-                </p>
+                <button
+                    class="back-category"
+                    onclick="showSection('home')">
+                    ← Retour
+                </button>
 
             </div>
 
+            <div class="tp-list">
 
-            <!-- ================= FIGMA ================= -->
+                <!-- TP ATELIER 1 -->
 
-            <div class="category-card" onclick="showSection('figma')">
+                <div class="tp-card">
 
-                <div class="category-icon">
-                    🎨
+                    <div class="tp-info">
+                        <h3>Atelier 1</h3>
+                        <p>Exercices pratiques.</p>
+                    </div>
+
+                    <a href="../public/images/Atelier1.jpeg"
+                       class="tp-link" download>
+                        Voir le TP Ex1
+                    </a>
+
+                    <a href="../public/images/Atelier1-2.jpeg"
+                       class="tp-link" download>
+                        Voir le TP Ex2
+                    </a>
+
+                    <a href="../public/images/Atelier1-3.jpeg"
+                       class="tp-link" download>
+                        Voir le TP Ex3
+                    </a>
+
                 </div>
 
-                <h3></h3>
+                <!-- TP ATELIER 2 -->
 
-                <p>
-                    
-                </p>
+                <div class="tp-card">
+
+                    <div class="tp-info">
+                        <h3>Atelier 2</h3>
+                        <p>Travail pratique de gestion de projet.</p>
+                    </div>
+
+                    <a href="../public/docs/Atelier2.pdf"
+                       class="tp-link" download>
+                        Voir l'Atelier
+                    </a>
+
+                </div>
+
+                <!-- TP ATELIER 5 -->
+
+                <div class="tp-card">
+
+                    <div class="tp-info">
+                        <h3>Atelier 5</h3>
+                        <p>Travail pratique.</p>
+                    </div>
+
+                    <a href="../public/images/Atelier5.pdf"
+                       class="tp-link" download>
+                        Voir l'Atelier
+                    </a>
+
+                </div>
+
+                <!-- TP ATELIER 7 -->
+
+                <div class="tp-card">
+
+                    <div class="tp-info">
+                        <h3>Atelier 7</h3>
+                        <p>Projet SonarQube sur GitLab Pages.</p>
+                    </div>
+
+                    <a href="https://atelier-sonarqube-2cc49d.gitlab.io"
+                       class="tp-link"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Voir l'Atelier
+                    </a>
+
+                </div>
 
             </div>
-
 
         </div>
 
     </div>
 
+    <!-- ================= FOOTER ================= -->
 
+    <footer>
+        © 2026 Imane Mkadem — Portfolio
+    </footer>
 
-    <!-- ================================================= -->
-    <!--                     UML                           -->
-    <!-- ================================================= -->
+    <!-- ================= JAVASCRIPT ================= -->
 
-    <div id="uml-section" class="content-section">
+    <script>
 
+        function showSection(section) {
 
-        <div class="section-header">
+            const home = document.getElementById("home-section");
+            const uml = document.getElementById("uml-section");
 
-            <h2>📐 Mes travaux Des diagrammes GANTT et PERT</h2>
+            home.style.display = "none";
+            uml.style.display = "none";
 
-            <button
-                class="back-category"
-                onclick="showSection('home')"
-            >
-                ← Retour
-            </button>
+            if (section === "home") {
+                home.style.display = "block";
+            }
 
-        </div>
+            if (section === "uml") {
+                uml.style.display = "block";
+                uml.classList.add("active");
+            }
 
+        }
 
-        <div class="tp-list">
-
-
-            <!-- ================= TP 1 ================= -->
-
-            <div class="tp-card">
-
-                <div class="tp-info">
-
-                    <h3>Atelier1</h3>
-
-                    <p>
-                       
-                    </p>
-
-                </div>
-
-                <a
-                    href="../public/images/Atelier1.jpeg"
-                    class="tp-link"
-                    download
-                >
-                    Voir le TP Ex1
-                </a>
-                <a
-                    href="../public/images/Atelier1-2.jpeg"
-                    class="tp-link"
-                    download
-                >
-                    Voir le TP Ex2
-                </a>
-                 <a
-                    href="../public/images/Atelier1-3.jpeg"
-                    class="tp-link"
-                    download
-                >
-                    Voir le TP Ex3
-                </a>
-
-            </div>
-
-<div class="tp-card">
-
-                <div class="tp-info">
-
-                    <h3>Atelier2</h3>
-
-                    <p>
-                       
-                    </p>
-
-                </div>
-
-                <a
-                    href="../public/docs/Atelier2.pdf"
-                    class="tp-link"
-                    download
-                >
-                    Voir le Atelier
-                </a>
-                
-
-            </div>
-
-<div class="tp-card">
-
-                <div class="tp-info">
-
-                    <h3>Atelier5</h3>
-
-                    <p>
-                       
-                    </p>
-
-                </div>
-
-                <a
-                    href="../public/images/Atelier5.pdf"
-                    class="tp-link"
-                    download
-                >
-                    Voir le Atelier
-                </a>
-                
-
-            </div>       
-            <div class="tp-card">
-
-                <div class="tp-info">
-
-                    <h3>Atelier7</h3>
-
-                    <p>
-                       
-                    </p>
-
-                </div>
-
-                <a
-                    href="https://atelier-sonarqube-2cc49d.gitlab.io"
-                    class="tp-link"
-                    download
-                >
-                    Voir le Atelier
-                </a>
-                
-
-            </div>               
-    <!-- ================================================= -->
-    <!--                    FIGMA                          -->
-    <!-- ================================================= -->
-
-
-
-</div>
-
-
-
-<!-- ================= FOOTER ================= -->
-
-<footer>
-
-    © 2026 Imane Mkadem — Portfolio
-
-</footer>
-
-
-
-<!-- ================================================= -->
-<!--                  JAVASCRIPT                       -->
-<!-- ================================================= -->
-
-<script>
-
-function showSection(section) {
-    const home = document.getElementById("home-section");
-    const uml = document.getElementById("uml-section");
-    const figma = document.getElementById("figma-section");
-
-    if (!home || !uml) return;
-
-    if (section === "figma" && !figma) {
-        alert("La section Figma n'est pas encore disponible.");
-        return;
-    }
-
-    home.style.display = section === "home" ? "block" : "none";
-
-    uml.classList.toggle("active", section === "uml");
-
-    if (figma) {
-        figma.classList.toggle("active", section === "figma");
-    }
-}
-
-
-</script>
-
+    </script>
 
 </body>
 </html>
