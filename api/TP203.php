@@ -332,10 +332,10 @@
 
                     <div class="tp-info">
                         <h3>Atelier 2</h3>
-                        <p></p>
+                        <p>Procedures et fonctions</p>
                     </div>
 
-                    <a href="../public/docs/"
+                    <a href="../public/docs/Atelier2SQL.pdf"
                        class="tp-link" download>
                         Voir l'Atelier
                     </a>
