@@ -352,7 +352,21 @@
                     </a>
 
                 </div>
+<!-- TP ATELIER 4 -->
 
+                <div class="tp-card">
+
+                    <div class="tp-info">
+                        <h3>Atelier 4</h3>
+                        <p>Travail pratique.</p>
+                    </div>
+
+                    <a href="../public/images/Atelier4.pdf"
+                       class="tp-link" download>
+                        Voir l'Atelier
+                    </a>
+
+                </div>
                 <!-- TP ATELIER 5 -->
 
                 <div class="tp-card">
@@ -364,6 +378,23 @@
 
                     <a href="../public/images/Atelier5.pdf"
                        class="tp-link" download>
+                        Voir l'Atelier
+                    </a>
+
+                </div>
+                <!-- TP ATELIER 6 -->
+
+                <div class="tp-card">
+
+                    <div class="tp-info">
+                        <h3>Atelier 6</h3>
+                        <p>SQl</p>
+                    </div>
+
+                    <a href="../public/docs/Atelier6.pdf"
+                       class="tp-link"
+                       target="_blank"
+                       rel="noopener noreferrer">
                         Voir l'Atelier
                     </a>
 
