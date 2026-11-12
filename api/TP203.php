@@ -342,18 +342,18 @@
 
                 </div>
 
-                <!-- TP ATELIER 5 -->
+                <!-- TP ATELIER 3 -->
 
                 <div class="tp-card">
 
                     <div class="tp-info">
-                        <h3></h3>
+                        <h3>Atelier 3</h3>
                         <p>Travail pratique.</p>
                     </div>
 
-                    <a href="../public/images/"
+                    <a href="../public/docs/Atelier3SQL.pdf"
                        class="tp-link" download>
-                        
+                        Voir l'Atelier
                     </a>
 
                 </div>
