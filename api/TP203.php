@@ -358,16 +358,16 @@
 
                 </div>
 
-                <!-- TP ATELIER 7 -->
+                <!-- TP ATELIER  -->
 
                 <div class="tp-card">
 
                     <div class="tp-info">
-                        <h3></h3>
-                        <p></p>
+                        <h3>Fonctions et Procédures </h3>
+                        <p>de chriwbie</p>
                     </div>
 
-                    <a href=""
+                    <a href="../public/docs/FP.pdf"
                        class="tp-link"
                        target="_blank"
                        rel="noopener noreferrer">
