@@ -376,6 +376,40 @@
 
                 </div>
 
+                <!-- TP ATELIER 4 -->
+
+                <div class="tp-card">
+
+                    <div class="tp-info">
+                        <h3>Atelier 4</h3>
+                        <p>Travail pratique.</p>
+                    </div>
+
+                    <a href="../public/docs/atelier4SQL.pdf"
+                       class="tp-link" target="_blank"
+                       rel="noopener noreferrer">
+                        Voir l'Atelier
+                    </a>
+
+                </div>
+
+ <!-- TP ATELIER 5 -->
+
+                <div class="tp-card">
+
+                    <div class="tp-info">
+                        <h3>Atelier 5</h3>
+                        <p>Travail pratique.</p>
+                    </div>
+
+                    <a href="../public/docs/atelier5SQL.pdf"
+                       class="tp-link" target="_blank"
+                       rel="noopener noreferrer">
+                        Voir l'Atelier
+                    </a>
+
+                </div>
+
             </div>
 
         </div>
