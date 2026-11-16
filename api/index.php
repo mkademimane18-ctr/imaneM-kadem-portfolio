@@ -905,13 +905,13 @@ footer {
 
             <div class="hero-buttons" style="justify-content:center;">
 
-                <a href="c:\Users\User\Documents\certificat\CV professionnel gris simple (2).pdf"
+                <a href="../public/docs/CV.pdf"
                    target="_blank"
                    class="btn btn-primary">
                     Voir mon CV ↗
                 </a>
 
-                <a href="../public/docs/CV-Imane-Mkadem.pdf"
+                <a href="../public/docs/CV.pdf"
                    download
                    class="btn btn-outline">
                     Télécharger mon CV ↓
