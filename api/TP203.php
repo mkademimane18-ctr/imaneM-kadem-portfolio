@@ -371,7 +371,7 @@
                        class="tp-link"
                        target="_blank"
                        rel="noopener noreferrer">
-                        
+                        voir l'Atelier
                     </a>
 
                 </div>
@@ -442,7 +442,33 @@
                     </a>
 
                 </div>
+<!-- SPRINT -->
 
+                <div class="tp-card">
+
+                    <div class="tp-info">
+                        <h3>Sprint CHRIWBIE SQL</h3>
+                        <p>Travail pratique.</p>
+                    </div>
+
+                    <a href="../public/docs/sprint.pdf"
+                       class="tp-link" target="_blank"
+                       rel="noopener noreferrer">
+                        Voir le rapport de sprint
+                    </a>
+                     <a href="../public/docs/sqlC.pdf"
+                       class="tp-link" target="_blank"
+                       rel="noopener noreferrer">
+                        Voir les captures d'écran
+                    </a>
+                    <a href="../public/docs/pratique.pdf"
+                       class="tp-link" target="_blank"
+                       rel="noopener noreferrer">
+                        Voir les captures d'écran
+                    </a>
+ 
+ 
+                </div>
             </div>
 
         </div>
