@@ -514,6 +514,35 @@
 
                 </div>
 
+
+
+ <div class="tp-card">
+
+<div class="tp-info">
+
+                        <h3>Atelier 2</h3>
+
+                        <p>
+                            MongoDB
+                        </p>
+
+                    </div>
+
+                    <a href="../public/docs/Atelier2MONGO.pdf"
+                       class="tp-link"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                       voir atelier 2 (captures d'écran)
+                    </a>
+
+                    <a href="../public/docs/Atelier2MONGO2.pdf"
+                       class="tp-link"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                       voir atelier 2 (Questions de synthèse)
+                    </a>
+                </div>
+
             </div>
 
         </div>
