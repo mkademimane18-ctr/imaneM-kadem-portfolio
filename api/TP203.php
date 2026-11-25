@@ -497,19 +497,19 @@
 
                     <div class="tp-info">
 
-                        <h3></h3>
+                        <h3>Atelier 1</h3>
 
                         <p>
-                            
+                            MongoDB
                         </p>
 
                     </div>
 
-                    <a href="../public/docs/MongoDB1.pdf"
+                    <a href="../public/docs/Atelier1MONGO.pdf"
                        class="tp-link"
                        target="_blank"
                        rel="noopener noreferrer">
-                       
+                       voir atelier 1
                     </a>
 
                 </div>
