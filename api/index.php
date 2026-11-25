@@ -941,7 +941,7 @@ footer {
             </a>
 
             <div class="social-links">
-                <a href="https://www.linkedin.com/" target="_blank"
+                <a href="https://www.linkedin.com/in/imane-mkadem-148a8b3a1" target="_blank"
                    rel="noopener">LinkedIn ↗</a>
 
                 <a href="https://github.com/mkademimane18-ctr"
