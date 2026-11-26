@@ -558,6 +558,32 @@ footer {
 }
 
 /* RESPONSIVE */
+@media(max-width: 850px) {
+    #certifications .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(max-width: 600px) {
+    #certifications .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #certifications .skill {
+        padding: 22px;
+    }
+
+    #certifications .skill h3 {
+        font-size: 16px;
+    }
+
+    #certifications .skill p {
+        font-size: 13px;
+    }
+}
+#certifications {
+    background: rgba(17,30,51,.35);
+    border-top: 1px solid var(--border);
+}
 
 @media(max-width: 850px) {
     nav { padding: 17px 5%; }
@@ -591,6 +617,7 @@ footer {
     section:not(#home) { padding: 80px 0; }
     .project-image { height: 200px; }
     .cv-card { padding: 40px 20px; }
+
 }
 </style>
 </head>
@@ -605,6 +632,7 @@ footer {
         <li><a href="#home">Accueil</a></li>
         <li><a href="#about">À propos</a></li>
         <li><a href="#skills">Compétences</a></li>
+        <li><a href="#certifications">Certifications</a></li>
         <li><a href="#projects">Projets</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
@@ -789,6 +817,55 @@ footer {
 
         </div>
     </div>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+    <div class="container">
+
+        <p class="section-label">Mes formations complémentaires</p>
+        <h2 class="section-title">
+            Mes <span>certifications</span>
+        </h2>
+
+        <p class="section-description">
+            Des certifications qui renforcent mes compétences
+            en intelligence artificielle, design et gestion de projets.
+        </p>
+
+        <div class="skills-grid">
+
+            <div class="skill reveal">
+                <div class="skill-icon">🤖</div>
+                <h3>Google AI Professional</h3>
+                <p>Google / Coursera</p>
+                <p>Intelligence artificielle et utilisation des outils IA.</p>
+            </div>
+
+            <div class="skill reveal">
+                <div class="skill-icon">🎨</div>
+                <h3>Creative Design Tools</h3>
+                <p>Adobe / Coursera</p>
+                <p>Création graphique et outils de design digital.</p>
+            </div>
+
+            <div class="skill reveal">
+                <div class="skill-icon">📊</div>
+                <h3>Business Analysis & Process Management</h3>
+                <p>Coursera</p>
+                <p>Analyse métier et gestion des processus.</p>
+            </div>
+
+            <div class="skill reveal">
+                <div class="skill-icon">📋</div>
+                <h3>Asana Foundations Skill Badge</h3>
+                <p>Asana</p>
+                <p>Organisation des tâches et gestion collaborative des projets.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
 </section>
 
 <!-- PROJECTS -->

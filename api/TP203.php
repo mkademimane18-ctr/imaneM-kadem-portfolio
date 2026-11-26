@@ -543,6 +543,33 @@
                     </a>
                 </div>
 
+
+                <div class="tp-card">
+
+<div class="tp-info">
+
+                        <h3>Atelier 3</h3>
+
+                        <p>
+                            MongoDB
+                        </p>
+
+                    </div>
+
+                    <a href="../public/docs/Atelier3MONGO.pdf"
+                       class="tp-link"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                       voir atelier 3 (captures d'écran)
+                    </a>
+
+                    <a href="../public/docs/Atelier3MONGO2.pdf"
+                       class="tp-link"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                       voir atelier 3 (Questions de synthèse)
+                    </a>
+                </div>
             </div>
 
         </div>
